@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
+          python-version: "3.14"
       - name: Check that the tag matches SKILL.md
         run: |
           version=$(sed -n 's/^\*\*Version \([0-9.]*\)\.\*\*.*/\1/p' skills/literary-translator/SKILL.md)
