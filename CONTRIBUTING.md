@@ -50,7 +50,7 @@ The tests run the checker on the files in `tests/fixtures` (an invented story wi
 
 ## Releases
 
-Pushing a tag such as `v1.1.0`, equal to the version in `SKILL.md`, runs the tests, builds `literary-translator.zip` and attaches it to a GitHub release, for users of the Claude apps. Claude Code users who installed the plugin receive every commit on the default branch when they update, so keep it working.
+Publishing a release on GitHub with a new tag such as `v1.1.0`, equal to the version in `SKILL.md`, runs the tests, builds `literary-translator.zip` and attaches it to the release, for users of the Claude apps. Claude Code users who installed the plugin receive every commit on the default branch when they update, so keep it working.
 
 ## Do not contribute
 
