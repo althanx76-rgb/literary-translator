@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+.DS_Store
+
+# Manuscripts, translations and briefs: keep them out of the repository
+*.docx
+!tests/fixtures/*.docx
+translation-brief-*.md

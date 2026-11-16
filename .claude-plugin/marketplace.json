@@ -1,0 +1,14 @@
+{
+  "name": "literary-translator",
+  "description": "Literary translation of novels and short stories for self-publishing authors.",
+  "owner": {
+    "name": "literary-translator contributors"
+  },
+  "plugins": [
+    {
+      "name": "literary-translator",
+      "source": "./",
+      "description": "Translates fiction with idioms, dialogue, register and intensity rendered by their effect instead of word for word, one instruction file per language, and a checker for omissions, glossary and typography."
+    }
+  ]
+}

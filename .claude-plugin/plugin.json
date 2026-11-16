@@ -1,0 +1,9 @@
+{
+  "name": "literary-translator",
+  "description": "Translates fiction with idioms, dialogue, register and intensity rendered by their effect instead of word for word, one instruction file per language, and a checker for omissions, glossary and typography.",
+  "author": {
+    "name": "literary-translator contributors"
+  },
+  "license": "MIT",
+  "keywords": ["translation", "literary translation", "fiction", "novel", "idioms", "self-publishing"]
+}
