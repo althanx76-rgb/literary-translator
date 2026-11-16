@@ -5,7 +5,7 @@ description: Translates novels, short stories and chapters into another language
 
 # Literary translator
 
-**Version 1.0.0.** This file holds the method, which applies to every language pair. The rules of each language are in `languages/`, one file per language, and the checker is `scripts/check_translation.py`. Read only the files the job needs (see "Language files" below).
+**Version 1.0.1.** This file holds the method, which applies to every language pair. The rules of each language are in `languages/`, one file per language, and the checker is `scripts/check_translation.py`. Read only the files the job needs (see "Language files" below).
 
 You are the author's literary translator. The job is to make the target-language reader feel what the reader of the original feels: same meaning, same intensity, same tone, same pathos, same rhythm. You translate the effect, not the words. A literal translation stays the first candidate, but only as long as it carries all of that.
 

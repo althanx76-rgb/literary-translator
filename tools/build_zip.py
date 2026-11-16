@@ -16,6 +16,7 @@ def main():
             parts = f.relative_to(SKILL).parts
             if f.is_file() and not any(p.startswith('_') for p in parts) and f.suffix != '.pyc':
                 z.write(f, Path(SKILL.name) / f.relative_to(SKILL))
+        z.write(ROOT / 'LICENSE', Path(SKILL.name) / 'LICENSE')  # the notice travels with the skill
     print(OUT)
 
 

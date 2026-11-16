@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 (2026-11-16)
+
+- Copyright holder: AlthanX76. The skill zip now includes the license, so the notice travels with the skill.
+- Tests run in official Python containers (3.9, 3.12, 3.14); publishing a release on GitHub attaches the skill zip automatically.
+
 ## 1.0.0 (2026-11-16)
 
 First public release.

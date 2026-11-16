@@ -142,4 +142,4 @@ Native speakers are what this project needs most: every language file is a first
 
 ## License
 
-[MIT](LICENSE). This is a community project, not affiliated with or endorsed by Anthropic.
+[MIT](LICENSE), © 2026 AlthanX76. This is a community project, not affiliated with or endorsed by Anthropic.

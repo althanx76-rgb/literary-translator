@@ -19,3 +19,5 @@ def test_skill_zip_has_the_skill_folder_at_its_root():
     assert 'literary-translator/scripts/check_translation.py' in names
     assert all(n.startswith('literary-translator/') for n in names)
     assert not any('/_' in n or n.endswith('.pyc') for n in names)
+    with zipfile.ZipFile(ROOT / 'dist' / 'literary-translator.zip') as z:
+        assert z.read('literary-translator/LICENSE') == (ROOT / 'LICENSE').read_bytes()
