@@ -16,7 +16,7 @@ jobs:
         # 3.9 is the python3 that ships with Apple's command line tools on many Macs
         python-version: ["3.9", "3.12", "3.14"]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python-version }}
